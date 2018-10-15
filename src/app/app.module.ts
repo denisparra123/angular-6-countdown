@@ -3,11 +3,16 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { NumberTransformPipe } from './countdown/pipes/number-transform/number-transform.pipe';
+import { CountDownComponent } from './countdown/countdown.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NumberTransformPipe,
+    CountDownComponent
+
   ],
   imports: [
     BrowserModule
