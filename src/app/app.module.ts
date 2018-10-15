@@ -3,19 +3,16 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { NumberTransformPipe } from './countdown/pipes/number-transform/number-transform.pipe';
-import { CountDownComponent } from './countdown/countdown.component';
+import { CountDownModule } from './countdown/countdow.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NumberTransformPipe,
-    CountDownComponent
-
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    CountDownModule
   ],
   providers: [],
   bootstrap: [AppComponent]

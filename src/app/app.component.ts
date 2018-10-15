@@ -7,4 +7,28 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  isCustomTemplate = true;
+  days;
+  hours;
+  minutes;
+  seconds;
+  backgroundColor = 'red';
+  textColor = 'black';
+
+  onDaysChanged(days) {
+    this.days = days;
+  }
+
+  onHoursChanged(hours) {
+    this.hours = hours;
+  }
+
+  onMinutesChanged(minutes) {
+    this.minutes = minutes;
+  }
+
+  onSecondsChanged(seconds) {
+    this.seconds = seconds;
+  }
+
 }
