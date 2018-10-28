@@ -1,0 +1,21 @@
+{
+  "name": "countdown",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/countdown.umd.js",
+  "module": "fesm5/countdown.js",
+  "es2015": "fesm2015/countdown.js",
+  "esm5": "esm5/countdown.js",
+  "esm2015": "esm2015/countdown.js",
+  "fesm5": "fesm5/countdown.js",
+  "fesm2015": "fesm2015/countdown.js",
+  "typings": "countdown.d.ts",
+  "metadata": "countdown.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
