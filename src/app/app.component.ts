@@ -6,5 +6,29 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng6-countdown';
+  title = 'app';
+  finishDate = 'October 18, 2020 00:33';
+  isCustomTemplate = true;
+  days;
+  hours;
+  minutes;
+  seconds;
+  backgroundColor = 'red';
+  textColor = 'black';
+
+  onDaysChanged(days) {
+    this.days = days;
+  }
+
+  onHoursChanged(hours) {
+    this.hours = hours;
+  }
+
+  onMinutesChanged(minutes) {
+    this.minutes = minutes;
+  }
+
+  onSecondsChanged(seconds) {
+    this.seconds = seconds;
+  }
 }
