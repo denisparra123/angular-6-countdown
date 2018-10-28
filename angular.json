@@ -126,7 +126,7 @@
         }
       }
     },
-    "countdown": {
+    "ng6-countdown-lib": {
       "root": "projects/countdown",
       "sourceRoot": "projects/countdown/src",
       "projectType": "library",

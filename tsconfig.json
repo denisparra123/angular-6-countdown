@@ -18,11 +18,11 @@
       "dom"
     ],
     "paths": {
-      "countdown": [
-        "dist/countdown"
+      "ng6-countdown-lib": [
+        "dist/ng6-countdown"
       ],
-      "countdown/*": [
-        "dist/countdown/*"
+      "ng6-countdown-lib/*": [
+        "dist/ng6-countdown/*"
       ]
     }
   }

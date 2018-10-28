@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
-import * as moment from 'moment';
+import * as moment_ from 'moment';
 
 @Component({
   selector: 'lib-countdown',
@@ -27,11 +27,12 @@ export class CountDownComponent implements OnInit {
   minutesRemaining: number;
   secondsRemaining: number;
   isFinishDate: boolean;
+  moment = moment_;
 
   ngOnInit() {
-    this.finishDate = moment(this.date);
+    this.finishDate = this.moment(this.date);
     setInterval(() => {
-      const today = moment();
+      const today = this.moment();
       this.daysRemaining = this.finishDate.diff(today, 'days') % 365;
       this.hoursRemaining = this.finishDate.diff(today, 'hours') % 24;
       this.minutesRemaining = this.finishDate.diff(today, 'minutes') % 60;
