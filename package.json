@@ -16,6 +16,16 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "keywords": [
+    "angular-6",
+    "Angular 6",
+    "materialize-css",
+    "Materialize-CSS",
+    "countdown",
+    "Countdown",
+    "angular 6 countdown",
+    "countdown materilize-css" 
+  ],
   "private": false,
   "dependencies": {
     "@angular/animations": "^6.1.0",
