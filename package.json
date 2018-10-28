@@ -15,7 +15,6 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "preinstall": "npm install",
     "postinstall": "ng build ng6-countdown-lib"
   },
   "private": true,
