@@ -6,7 +6,7 @@
     "email": "densoft123@gmail.com"
   },
   "repository": {
-    "url": "https://github.com/denisparra123/angular-6-countdown/tree/develop"
+    "url": "https://github.com/denisparra123/angular-6-countdown"
   },
   "scripts": {
     "ng": "ng",
