@@ -1,6 +1,14 @@
 {
   "name": "ng6-countdown-lib",
-  "version": "0.0.1",
+  "version": "1.0.3",
+  "author": {
+    "name": "Denis Parra",
+    "email": "densoft123@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/denisparra123/angular-6-countdown"
+  },
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
