@@ -4,7 +4,8 @@ A simple countdown for angular 6 based in materialize-css.
 
 ## Pre-requisites
 
-* [Materilize-css](https://www.npmjs.com/package/materialize-css) 
+* [Materilize-css](https://www.npmjs.com/package/materialize-css)
+* [Moment](https://www.npmjs.com/package/moment) 
 
 ## Quickstart:
 You can install run the next command.
@@ -15,7 +16,7 @@ in app.module file.
 import { BrowserModule } from  '@angular/platform-browser';
 import { NgModule } from  '@angular/core';
 
-import { CountDownModule } from  'ng6-countdown/dist/ng6-countdown-lib';
+import { CountDownModule } from  'ng6-countdown';
 
 import { AppComponent } from  './app.component';
 
